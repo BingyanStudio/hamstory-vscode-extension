@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Hamstory",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"begin": "\\[",
+			"end": "\\]",
+			"patterns": [
+				{
+					"name": "keyword.control.hamstory",
+					"match": "[Mm]enu|[Ii]f|[Ee]lif|[Ee]lse|[Cc]har|[Jj]ump|/"
+				}
+			]
+		},
+		"variables": {
+			"begin": "\\{",
+			"end": "\\}",
+			"patterns": [
+				{
+					"name": "variable.property.hamstory",
+					"match": "\\b\\w*\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.hamstory",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.hamstory",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.hamstory",
+					"match": "\\b[0-9\\.]*\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.hamstory"
+}

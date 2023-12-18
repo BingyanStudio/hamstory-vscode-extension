@@ -1,0 +1,39 @@
+{
+    "char": {
+        "prefix": "char",
+        "body": [
+            "[Char] ${1:角色代号}"
+        ],
+        "description": "声明角色"
+    },
+    "menu": {
+        "prefix": "menu",
+        "body": [
+            "[Menu]",
+            "- ${1:菜单可选项}"
+        ],
+        "description": "添加菜单"
+    },
+    "if": {
+        "prefix": "if",
+        "body": [
+            "[If] ${1:条件}",
+            "[/]"
+        ],
+        "description": "If 分歧"
+    },
+    "elif": {
+        "prefix": "elif",
+        "body": [
+            "\b\b\b\b[Elif] ${1:条件}"
+        ],
+        "description": "Else If 分歧"
+    },
+    "else": {
+        "prefix": "else",
+        "body": [
+            "[Else]\n"
+        ],
+        "description": "Else"
+    }
+}
