@@ -15,6 +15,6 @@ This is the supporting extension for    `Hamstory` Story Scripts.
 * 文档格式化
 
 ## 更新日志 ChangeLog
-查阅 [CHANGELOG](https://github.com/BingyanStudio/hamstory-vscode-extension/blob/main/CHANGELOG.md) 以获取更多信息
+查阅 [CHANGELOG](https://github.com/BingyanStudio/hamstory-vscode-extension/blob/main/CHANGELOG.md) 以获取更多信息  
 View [CHANGELOG](https://github.com/BingyanStudio/hamstory-vscode-extension/blob/main/CHANGELOG.md) for more infomation.
 
