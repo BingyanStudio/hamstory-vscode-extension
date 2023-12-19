@@ -14,6 +14,9 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "icon": "./assets/icon.png",
+  "author": {
+    "name": "Hamster5295"
+  },
   "repository": {
     "url": "https://github.com/BingyanStudio/hamstory-vscode-extension"
   },
