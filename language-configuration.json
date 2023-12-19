@@ -73,7 +73,7 @@
         }
     },
     "indentationRules": {
-        "increaseIndentPattern": "(\\s*\\[[Ii]f|[Ee]lif|[Ee]lse\\].*)|(\\s*-.*)",
-        "decreaseIndentPattern": "^\\s*\\[[Ee]lif|[Ee]lse|/\\]\\.*$"
+        "increaseIndentPattern": "^\\s*(\\[[Ii]f|[Ee]lif|[Ee]lse\\])|(-).*$",
+        "decreaseIndentPattern": "^\\s*(\\[[Ee]lif|[Ee]lse|/\\])|(-).*$"
     }
 }

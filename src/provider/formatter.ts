@@ -7,7 +7,7 @@ export class HamstoryFormatter implements vscode.DocumentFormattingEditProvider 
         : vscode.ProviderResult<vscode.TextEdit[]> {
 
         const tabbing = options.insertSpaces ? ' '.repeat(options.tabSize) : '\t';
-        const indentKeywords = ['-', '[If]','[Elif]', '[Else]'],
+        const indentKeywords = ['-', '[Menu]', '[If]', '[Elif]', '[Else]'],
             outdentKeywords = ['-', '[/]', '[Elif]', '[Else]'];
 
         let depth = 0;
@@ -24,6 +24,7 @@ export class HamstoryFormatter implements vscode.DocumentFormattingEditProvider 
                 }
             }
 
+            content = this.formatGeneral(content);
             content = this.formatSentence(content);
             content = this.formatMenuItem(content);
             content = this.formatCommand(content);
@@ -37,6 +38,19 @@ export class HamstoryFormatter implements vscode.DocumentFormattingEditProvider 
         }
 
         return results;
+    }
+
+    formatGeneral(line: string): string {
+        let contents = line.split(',');
+        let result = "";
+        for (let i = 0; i < contents.length; i++) {
+            const element = contents[i];
+            result += element.trim();
+            if (i < contents.length - 1) {
+                result += ", ";
+            }
+        }
+        return result;
     }
 
     formatSentence(line: string): string {

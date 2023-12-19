@@ -37,12 +37,6 @@
         "scopeName": "source.hamstory",
         "path": "./syntaxes/hamstory.tmLanguage.json"
       }
-    ],
-    "snippets": [
-      {
-        "language": "hamstory",
-        "path": "./snippets/hamstory.snippets.json"
-      }
     ]
   },
   "scripts": {
