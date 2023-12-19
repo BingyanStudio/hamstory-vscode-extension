@@ -1,7 +1,7 @@
 {
   "name": "hamstory",
-  "displayName": "hamstory",
-  "description": "Language Support for Hamstory files",
+  "displayName": "Hamstory",
+  "description": "Language Support for Hamstory Story Scripts",
   "version": "1.0.0-beta1",
   "engines": {
     "vscode": "^1.85.0"
@@ -13,6 +13,10 @@
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
+  "icon": "./assets/icon.png",
+  "repository": {
+    "url": "https://github.com/BingyanStudio/hamstory-vscode-extension"
+  },
   "contributes": {
     "commands": [
       {
