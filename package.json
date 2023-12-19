@@ -2,7 +2,7 @@
   "name": "hamstory",
   "displayName": "Hamstory",
   "description": "Language Support for Hamstory Story Scripts",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.85.0"
   },
