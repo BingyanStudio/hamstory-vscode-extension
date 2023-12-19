@@ -2,12 +2,14 @@
   "name": "hamstory",
   "displayName": "hamstory",
   "description": "Language Support for Hamstory files",
-  "version": "0.0.1",
+  "version": "1.0.0-beta1",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Formatters",
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
