@@ -22,7 +22,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.hamstory",
-					"match": "[Mm]enu|[Ii]f|[Ee]lif|[Ee]lse|[Cc]har|[Jj]ump|/"
+					"match": "[Mm]enu|[Ii]f|[Ee]lif|[Ee]lse|[Cc]har|[Jj]ump|[E]nd|[Rr]eturn|/"
 				}
 			]
 		},

@@ -2,7 +2,7 @@
   "name": "hamstory",
   "displayName": "Hamstory",
   "description": "Language Support for Hamstory Story Scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -22,12 +22,6 @@
     "url": "https://github.com/BingyanStudio/hamstory-vscode-extension"
   },
   "contributes": {
-    "commands": [
-      {
-        "command": "hamstory.helloWorld",
-        "title": "Hello World"
-      }
-    ],
     "languages": [
       {
         "id": "hamstory",
